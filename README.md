@@ -3,6 +3,9 @@
 OpenGL tutorial code
 
 Include a number of OpenGL demos:
+* A single cube and diffuse lighting => \Scene
+* Single light PBR shader => \Shader
+* Variance Shadow Mapping => \Shadows
 * Chromatic Abberation (wavelength-dependent refraction)   =>   \ChromaticAberration
 * Normal Mapping couple with single light PBR   =>   \NormalMapping
 * Normal-oriented hemisphere sample SSAO with bilinear blur   =>   \SSAO
