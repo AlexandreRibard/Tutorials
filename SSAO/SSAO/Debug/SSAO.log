@@ -1,0 +1,19 @@
+﻿Build started 25/04/2016 14:09:17.
+     1>Project "c:\Users\aribard\documents\visual studio 2013\Projects\SSAO\SSAO\SSAO.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"c:\users\aribard\documents\visual studio 2013\Projects\SSAO\\SSAO\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\aribard\documents\visual studio 2013\projects\ssao\ssao\include\openglengine\windowinterface.hpp(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\aribard\documents\visual studio 2013\projects\ssao\ssao\include\openglengine\controlerinterface.hpp(127): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aribard\documents\visual studio 2013\projects\ssao\ssao\include\openglengine\controlerinterface.hpp(135): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aribard\documents\visual studio 2013\projects\ssao\ssao\include\openglengine\controlerinterface.hpp(156): warning C4552: '!=' : operator has no effect; expected operator with side-effect
+     1>c:\users\aribard\documents\visual studio 2013\projects\ssao\ssao\include\openglengine\controlerinterface.hpp(240): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\aribard\documents\visual studio 2013\Projects\SSAO\Debug\SSAO.exe" /INCREMENTAL /NOLOGO /LIBPATH:"c:\users\aribard\documents\visual studio 2013\Projects\SSAO\\SSAO\Lib\x64\Debug" glew32.lib SOIL.lib OpenGLEngine.lib glu32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\aribard\documents\visual studio 2013\Projects\SSAO\Debug\SSAO.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\aribard\documents\visual studio 2013\Projects\SSAO\Debug\SSAO.lib" /MACHINE:X86 Debug\main.obj
+     1>main.obj : error LNK2019: unresolved external symbol "public: __thiscall OpenGLEngine::window::Window::Window(unsigned int,unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0Window@window@OpenGLEngine@@QAE@IIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function _main
+     1>c:\users\aribard\documents\visual studio 2013\Projects\SSAO\Debug\SSAO.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "c:\Users\aribard\documents\visual studio 2013\Projects\SSAO\SSAO\SSAO.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.64
