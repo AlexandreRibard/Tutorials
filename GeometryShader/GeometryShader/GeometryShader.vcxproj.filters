@@ -28,15 +28,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="explode.gs">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="wireframe.gs">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="normal.gs">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="normal.frag">
       <Filter>Resource Files</Filter>
     </None>
@@ -47,6 +38,15 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="wireframe.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="normal.geom">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="explode.geom">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="wireframe.geom">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

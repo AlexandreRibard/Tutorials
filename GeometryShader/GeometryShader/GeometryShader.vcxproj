@@ -155,13 +155,13 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="explode.gs" />
+    <None Include="explode.geom" />
     <None Include="normal.frag" />
-    <None Include="normal.gs" />
+    <None Include="normal.geom" />
     <None Include="normal.vert" />
     <None Include="wireframe.frag" />
     <None Include="wireframe.vert" />
-    <None Include="wireframe.gs" />
+    <None Include="wireframe.geom" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

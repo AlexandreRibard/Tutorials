@@ -126,10 +126,10 @@ int main(int argc, char ** argv)
 	// NB: No support for tesselation nor geometry shaders in current build
 	/////////////////////////////
 	OpenGLEngine::Shader pbrShader("wireframe.vert", "wireframe.frag");
-	pbrShader.addGeometryShader("wireframe.gs");
+	pbrShader.addGeometryShader("wireframe.geom");
 	
 	OpenGLEngine::Shader normalShader("normal.vert", "normal.frag");
-	normalShader.addGeometryShader("normal.gs");
+	normalShader.addGeometryShader("normal.geom");
 
 	/////////////////////////////
 	// UNIFORMS
