@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{54d01ec6-f37c-4461-a68b-c74683d40fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\curve">
+      <UniqueIdentifier>{839f8339-4e7f-4244-9cd4-4e8a952cc6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\quad">
+      <UniqueIdentifier>{addcea99-19c3-4ec0-b527-0d3b035013da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\surface">
+      <UniqueIdentifier>{047ac234-2d7b-4e7b-8b5f-8f5503f8ee57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stopWatch.hpp">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="point.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="point.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="curve.frag">
+      <Filter>Resource Files\curve</Filter>
+    </None>
+    <None Include="curve.tesc">
+      <Filter>Resource Files\curve</Filter>
+    </None>
+    <None Include="curve.tese">
+      <Filter>Resource Files\curve</Filter>
+    </None>
+    <None Include="curve.vert">
+      <Filter>Resource Files\curve</Filter>
+    </None>
+    <None Include="quad.frag">
+      <Filter>Resource Files\quad</Filter>
+    </None>
+    <None Include="quad.geom">
+      <Filter>Resource Files\quad</Filter>
+    </None>
+    <None Include="quad.tesc">
+      <Filter>Resource Files\quad</Filter>
+    </None>
+    <None Include="quad.tese">
+      <Filter>Resource Files\quad</Filter>
+    </None>
+    <None Include="quad.vert">
+      <Filter>Resource Files\quad</Filter>
+    </None>
+    <None Include="surface.vert">
+      <Filter>Resource Files\surface</Filter>
+    </None>
+    <None Include="surface.frag">
+      <Filter>Resource Files\surface</Filter>
+    </None>
+    <None Include="surface.tesc">
+      <Filter>Resource Files\surface</Filter>
+    </None>
+    <None Include="surface.tese">
+      <Filter>Resource Files\surface</Filter>
+    </None>
+    <None Include="surface.geom">
+      <Filter>Resource Files\surface</Filter>
+    </None>
+  </ItemGroup>
+</Project>
